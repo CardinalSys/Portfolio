@@ -65,3 +65,9 @@ body {
     border-color: black;
 }
 
+@media screen and (max-width: 900px) {
+    body > div {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
