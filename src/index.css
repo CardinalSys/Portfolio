@@ -110,9 +110,42 @@ code {
   border-color: black;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (min-width: 1024px) {
   body {
     padding-left: 0%;
     padding-right: 0%;
+  }
+
+  .heading-text{
+    margin-top: 1%;
+    position: relative;
+    right: 15%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .heading-text{
+    margin-top: 1%;
+    position: relative;
+    right: 15%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .heading-text{
+    margin-top: 1%;
+    position: relative;
+    right: 35%;
   }
 }
