@@ -72,6 +72,12 @@ function App() {
                   link = "https://cardinalsys.itch.io/spacewar"
                   projectDesc = "SpaceWar is a simple 2D Space Shooter Game made with GitHubCopilot in Unity."
                 />
+              <Project 
+                  projectName = "Mario Bros 1-1 Clone"
+                  imageUrl = "MarioBros"
+                  link = "https://github.com/CardinalSys/Malio-Blos"
+                  projectDesc = "A clone of the first Mario Bros (SNES) level."
+                />
             </div>
           }
         </ul>
